@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="central">
+        <div class="container">
+            <div class="tagline">
+                <h2>Plan your activities and control your progress</h2>
+                <img src="./assets/images/rocker2-removebg-preview.png" alt="rocket in the sky" />
+            </div>
+            <div class="details">
+                <div class="sign-buttons">
+                    <button type="button" value="sign in" id="in-1"><a href="./files/signIn.html">Sign In</a></button>
+                    <button type="button" value="sign up" id="up-1"><a href="./index.html">Sign Up</a></button>
+                </div>
+                <div class="inner-container">
+                    <h2><span id="in"><a href="./files/signIn.html">SIGN IN</a></span><span id="or"> or </span><span id="up"><a href="./index.html">SIGN UP</a></span></h2>
+                    <form action="" method="get" target="_self" id="form1">
+                        <label for="name">Full Name</label><br>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required/><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" placeholder="Password" required/><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Your email goes here" required/><br>
+                        <input type="checkbox" name="t&c" id="t&c" required/>
+                        <label for="t&c" id="label">I agree all statement in
+                            <span>terms and conditions</span> policy
+                        </label><br>
+                        <div class="member">
+                            <button type="submit" form="form1" value="Submit">Sign Up</button>
+                            <p><a href="./files/signIn.html">I'm already a memeber</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

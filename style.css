@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #d5f8d5;
+}
+.central{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+
+
+
+
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 520px;
+    color: #ffffff;
+    width: 750px;
+    height: 80vh;
+}
+.tagline{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    font-weight: 200;
+    text-align: center;
+    font-size: 1rem;
+    align-items: center;
+    border-radius: 8px 0 0 8px;
+    background-color: rgb(68, 177, 155);;
+}
+.tagline > img {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
+.tagline > h2{
+    font-size: 20px;
+}
+.details{
+    position: relative;
+    border-radius: 0 8px 8px 0;
+    background-color: #2C3639;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-buttons{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.inner-container{
+    position: relative;
+    top: 100px;
+}
+#form1 > input[type="text"], #form1 > input[type="password"], #form1 > input[type="email"]{
+    padding: 6px;
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(68, 177, 155);
+    color: #fff;
+}
+input{
+    margin-bottom: 8px;
+}
+#form1 > input[type="text"]:focus, #form1 > input[type="password"]:focus, #form1 > input[type="email"]:focus{
+    border: none;    
+    outline: 0;
+    border-bottom: 1px solid rgb(233, 144, 10);
+}
+#form1 > input[type="text"]::placeholder ,#form1 > input[type="email"]::placeholder{
+    font-size: 0.8rem;
+}
+#label{
+    color: grey;
+    font-size: 14px;
+}
+label > span{
+    color: #fff;
+    border-bottom: 1px solid rgb(68, 68, 177);
+}
+#form1 > button{
+    display: inline;
+}
+.member{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+#form1>.member > p > a{
+    display: inline;
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(68, 177, 155);
+}
+#form1>.member > p > a:hover{
+    color: #fff;
+}
+#form1>.member > button{
+    border-radius: 50px;
+    border: none;
+    padding: 5px 25px;
+    color: #fff;
+    background-color: rgb(68, 177, 155);
+}
+.inner-container > h2{
+    margin: 20px 0;
+}
+.inner-container > h2 > #or{
+    font-size: 14px;
+    padding: 8px;
+}
+.inner-container > h2 > #in > a, .inner-container > h2 > #up > a, .sign-buttons > button > a{
+    text-decoration: none;
+    color: #fff;
+}
+.inner-container > h2 > #up{
+    border-bottom: 2px solid rgb(68, 177, 155);
+    transition: 0.3s border-bottom ease;
+}
+.inner-container > h2 > #up:hover{
+    transition: 0.3s border-bottom ease;
+    border-bottom: 2px solid rgb(233, 144, 10);
+}
+.sign-buttons > button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    border-radius:20px ;
+}
+#in-1{
+    background-color: rgb(68, 177, 155);
+}
+#in-1:hover{
+    background-color: rgb(102, 175, 161);
+}
+#up-1{
+    background-color: rgb(93, 93, 93);
+}
+#up-1:hover{
+    background-color: rgb(113, 113, 113);
+}
